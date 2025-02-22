@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    align-content: center;
+    background: rgba(12, 145, 129, 0.85);
+}
+
+.description {
+    font-size: 18px;
+    background: white;
+    padding: 6%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links {
+    text-align: center;
+    background: pink;
+    padding: 3%;
+    border-radius: 10px;
+    width: auto;
+    padding-left: 50%;
+    padding-right: 50%;
+    /*align-content: center;*/
+    /*margin-left: 25%;*/
+    /*margin-right: 50%;*/
+    /*float: right;*/
+}
+
+.links > a {
+    margin: auto;
+}
